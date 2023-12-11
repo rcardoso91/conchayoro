@@ -6,7 +6,7 @@ on:
       - main  
 
 jobs:
-  jobx:
+  marketplace:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Node.js
