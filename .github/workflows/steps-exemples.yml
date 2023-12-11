@@ -1,8 +1,9 @@
-jobx:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Update Node.js versions
-      uses: hongaar/update-node-versions@v2.2.0
+jobs:
+  jobx:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update Node.js versions
+        uses: hongaar/update-node-versions@v2.2.0
 
-    - name: verification of node version
-      run: node --version
+      - name: Verification of Node.js version
+        run: node --version
